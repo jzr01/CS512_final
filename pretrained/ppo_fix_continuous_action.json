@@ -1,0 +1,8 @@
+{
+  "repo": "sdpkjc/Ant-v4-ppo_fix_continuous_action-seed2",
+  "revision": "b88f77df64955077718a67c826f2dc290dfbe4e9",
+  "filename": "ppo_fix_continuous_action.cleanrl_model",
+  "url": "https://huggingface.co/sdpkjc/Ant-v4-ppo_fix_continuous_action-seed2/resolve/b88f77df64955077718a67c826f2dc290dfbe4e9/ppo_fix_continuous_action.cleanrl_model",
+  "sha256": "68c1a1a459350257c15aa2968fda5abb2a5196279188644b7a5bee9fcaf5c703",
+  "task": "forward locomotion; not a pretrained direction-command policy"
+}

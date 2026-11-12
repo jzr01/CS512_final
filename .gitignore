@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+runs/
+results/
+videos/
+wandb/
+pretrained/*.cleanrl_model
+pretrained/ppo_fix_continuous_action.py
+pretrained/README.md

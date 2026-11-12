@@ -1,0 +1,17 @@
+{
+  "python": "3.13.12",
+  "packages": {
+    "numpy": "2.3.5",
+    "gymnasium": "1.4.0",
+    "mujoco": "3.10.0",
+    "torch": "2.15.0+cpu",
+    "pygame": "2.6.1",
+    "PyYAML": "6.0.3",
+    "tensorboard": "2.21.0",
+    "matplotlib": "3.11.2",
+    "imageio": "2.38.1",
+    "pytest": "9.2.0"
+  },
+  "test_environment": "/tmp/cs512-test-venv",
+  "device": "cpu"
+}

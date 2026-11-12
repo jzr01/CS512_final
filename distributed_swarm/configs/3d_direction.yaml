@@ -1,0 +1,30 @@
+env:
+  control_mode: discrete_direction
+  num_agents: 5
+  max_episode_steps: 500
+  communication_radius: 10.0
+  frame_skip: 5
+  fall_as_failure: true
+  network:
+    packet_loss: 0.1
+    min_delay: 0
+    max_delay: 2
+    reorder: true
+  consistency:
+    mode: confidence
+    lambda_decay: 0.25
+    logical_clocks: true
+    predict_position: false
+    failure_detection: true
+    heartbeat_interval: 1
+    heartbeat_timeout: 4
+    unavailable_timeout: 8
+training:
+  training_mode: independent
+  total_timesteps: 10000000
+  num_envs: 64
+  num_steps: 8
+  update_epochs: 10
+  num_minibatches: 16
+  learning_rate: 0.0003
+  ent_coef: 0.0

@@ -1,0 +1,28 @@
+env:
+  num_agents: 5
+  map_size: 20
+  max_episode_steps: 200
+  robot_radius: 0.35
+  collision_radius: 0.7
+  communication_radius: 8.0
+  network:
+    packet_loss: 0.1
+    min_delay: 0
+    max_delay: 2
+    reorder: true
+  consistency:
+    mode: confidence
+    lambda_decay: 0.25
+    logical_clocks: true
+    predict_position: false
+    failure_detection: true
+    heartbeat_interval: 1
+    heartbeat_timeout: 4
+    unavailable_timeout: 8
+training:
+  total_timesteps: 1000000
+  num_envs: 8
+  num_steps: 128
+  update_epochs: 4
+  num_minibatches: 8
+  learning_rate: 0.0003

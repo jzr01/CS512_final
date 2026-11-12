@@ -1,0 +1,8 @@
+seeds: [1, 2, 3]
+episodes: 10
+evaluation_seed: 10000
+packet_losses: [0.0, 0.1, 0.3]
+max_delays: [0, 2, 5]
+crash_counts: [0, 1, 2]
+fault_time: 30
+recovery_time: 60
